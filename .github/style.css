@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Tamil:wght@400;700&display=swap');
+
+:root {
+    --primary-color: #e74c3c;
+    --secondary-color: #c0392b;
+    --accent-color: #e67e22;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+.tamil {
+    font-family: 'Noto Sans Tamil', sans-serif;
+    display: block;
+    font-size: 0.8em;
+    margin-top: 0.5rem;
+    color: var(--accent-color);
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    background-color: var(--primary-color) !important;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.hero {
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://via.placeholder.com/1920x1080');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 200px 0 100px;
+    margin-top: -56px;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.hero .tamil {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.hero .lead {
+    font-size: 1.5rem;
+}
+
+section {
+    scroll-margin-top: 56px;
+}
+
+.card {
+    transition: transform 0.3s ease;
+    border: none;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.contact-info {
+    background: #f8f9fa;
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.contact-info i {
+    color: var(--secondary-color);
+    margin-right: 10px;
+    width: 20px;
+}
+
+.contact-form .form-control {
+    margin-bottom: 1rem;
+    padding: 0.8rem;
+    border-radius: 5px;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border: none;
+    padding: 10px 30px;
+    font-weight: 600;
+    border-color: var(--primary-color);
+}
+
+.btn-primary:hover {
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+    transform: translateY(-2px);
+}
+
+.btn-outline-primary {
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.btn-outline-primary:hover {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.feature-box {
+    padding: 2rem;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    margin-bottom: 1rem;
+}
+
+.feature-box:hover {
+    transform: translateY(-5px);
+}
+
+.feature-box i {
+    color: var(--primary-color);
+}
+
+.product-card {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+.product-info {
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.product-info h3 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.cta-section {
+    background: linear-gradient(rgba(231,76,60,0.9), rgba(192,57,43,0.9)), url('https://images.unsplash.com/photo-1560448204-603b3fc33ddc?w=1920&auto=format');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 4rem 0;
+}
+
+.testimonial-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+    height: 100%;
+}
+
+.testimonial-content {
+    position: relative;
+}
+
+.testimonial-content i {
+    color: var(--primary-color);
+    font-size: 2rem;
+}
+
+.testimonial-author {
+    margin-top: 1.5rem;
+    padding-top: 1rem;
+    border-top: 1px solid #eee;
+}
+
+.testimonial-author h5 {
+    color: var(--primary-color);
+    margin-bottom: 0.25rem;
+}
+
+.testimonial-author p {
+    color: #666;
+    margin: 0;
+}
+
+footer {
+    margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        padding: 150px 0 50px;
+    }
+    
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+    
+    .contact-info {
+        margin-bottom: 2rem;
+    }
+}
